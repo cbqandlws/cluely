@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-text {
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-size: 28px;
+      fill: #2563eb;
+    }
+    .logo-ai {
+      fill: #1e40af;
+    }
+    .logo-icon {
+      fill: none;
+      stroke: #2563eb;
+      stroke-width: 3;
+      stroke-linecap: round;
+    }
+  </style>
+  
+  <!-- Logo图标部分 -->
+  <path class="logo-icon" d="M20,30 Q30,10 40,30 T60,30 T80,30 T100,30
