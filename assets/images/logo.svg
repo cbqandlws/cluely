@@ -1,22 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .logo-text {
-      font-family: Arial, sans-serif;
-      font-weight: bold;
-      font-size: 28px;
-      fill: #2563eb;
-    }
-    .logo-ai {
-      fill: #1e40af;
-    }
-    .logo-icon {
-      fill: none;
-      stroke: #2563eb;
-      stroke-width: 3;
-      stroke-linecap: round;
-    }
-  </style>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <!-- 渐变背景 -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+  </defs>
   
-  <!-- Logo图标部分 -->
-  <path class="logo-icon" d="M20,30 Q30,10 40,30 T60,30 T80,30 T100,30
+  <!-- 图标部分 - AI原子结构抽象图形 -->
+  <g transform="translate(10,10)">
+    <circle cx="20" cy="20" r="8" fill="url(#gradient)"/>
+    <path d="M20,0 L40,20 L20,40 L0,20 Z" fill="none" stroke="url(#gradient)" stroke-width="3"/>
+    <circle cx="20" cy="20" r="15" fill="none" stroke="url(#gradient)" stroke-width="2" stroke-dasharray="2,2"/>
+    
+    <!-- 连接点 -->
+    <circle cx="0" cy="20" r="3" fill="url(#gradient)"/>
+    <circle cx="20" cy="0" r="3" fill="url(#gradient)"/>
+    <circle cx="40" cy="20" r="3" fill="url(#gradient)"/>
+    <circle cx="20" cy="40" r="3" fill="url(#gradient)"/>
+  </g>
+  
+  <!-- 文字标识 -->
+  <text x="70" y="35" font-family="'Arial', sans-serif" font-size="28" font-weight="bold" fill="#1E40AF">Cluely</text>
+  <text x="145" y="35" font-family="'Arial', sans-serif" font-size="28" fill="#4B5563">AI</text>
+</svg>
