@@ -1,0 +1,32 @@
+@media print {
+    body {
+        font-size: 12pt;
+        line-height: 1.3;
+        color: #000;
+        background: none;
+    }
+    
+    header, footer, nav, .no-print {
+        display: none !important;
+    }
+    
+    a::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+    
+    .page-break {
+        page-break-before: always;
+    }
+    
+    main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    img {
+        max-width: 500px !important;
+    }
+}

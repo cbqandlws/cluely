@@ -1,0 +1,45 @@
+/* 平板设备 */
+@media (max-width: 992px) {
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .testimonial-slider {
+        padding: 0 1rem;
+    }
+}
+
+/* 移动设备 */
+@media (max-width: 768px) {
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero {
+        padding: 3rem 0;
+    }
+    
+    .blog-posts {
+        grid-template-columns: 1fr;
+    }
+    
+    .dashboard {
+        flex-direction: column;
+    }
+}
+
+/* 小屏幕手机 */
+@media (max-width: 480px) {
+    .cta-button {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .contact-methods {
+        flex-direction: column;
+    }
+    
+    .contact-form, .contact-info {
+        width: 100%;
+    }
+}
