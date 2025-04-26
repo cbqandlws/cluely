@@ -1,0 +1,33 @@
+cluely.net/
+├── index.html                      # 首页
+├── robots.txt                      # 机器人协议
+├── sitemap.xml                     # 网站地图
+├── humans.txt                      # 人类协议
+├── .htaccess                       # Apache服务器配置
+├── assets/
+│   ├── css/
+│   │   ├── style.css               # 主样式表
+│   │   └── responsive.css          # 响应式样式
+│   ├── js/
+│   │   ├── main.js                 # 主JavaScript
+│   │   └── analytics.js            # 分析跟踪代码
+│   └── images/
+│       ├── logo.svg                # 网站Logo
+│       ├── hero-image.webp         # 首页主图
+│       └── ...                     # 其他图片资源
+├── products/
+│   ├── index.html                  # 产品主页面
+│   ├── ai-solutions.html           # AI解决方案页面
+│   └── ...                         # 其他产品页面
+├── blog/
+│   ├── index.html                  # 博客主页
+│   ├── how-cluely-ai-works.html    # 博客文章示例
+│   └── ...                         # 其他博客文章
+├── about/
+│   └── index.html                  # 关于我们页面
+├── contact/
+│   └── index.html                  # 联系我们页面
+└── resources/
+    ├── index.html                  # 资源中心主页
+    ├── whitepapers/                # 白皮书目录
+    └── case-studies/               # 案例研究目录

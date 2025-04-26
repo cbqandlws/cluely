@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Cluely AI | Get in Touch</title>
+    <meta name="description" content="Contact the Cluely AI team for inquiries, support or partnership opportunities.">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact Cluely AI",
+        "description": "Contact information for Cluely AI",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Cluely AI"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- 共用header与footer -->
+    
+    <main>
+        <section class="contact-header">
+            <h1>Get in Touch</h1>
+            <p>We'd love to hear from you. Reach out for sales inquiries, support or partnership opportunities.</p>
+        </section>
+        
+        <section class="contact-methods">
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="/contact-process" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option value="sales">Sales Inquiry</option>
+                            <option value="support">Technical Support</option>
+                            <option value="partnership">Partnership</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <h2>Other Ways to Reach Us</h2>
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@cluely.net">info@cluely.net</a></p>
+                </div>
+                <div class="info-item">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+18005551234">+1 (800) 555-1234</a></p>
+                </div>
+                <div class="info-item">
+                    <h3>Office</h3>
+                    <address>
+                        123 AI Boulevard<br>
+                        Tech City, CA 90210<br>
+                        United States
+                    </address>
+                </div>
+            </div>
+        </section>
+        
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What industries do you serve?</h3>
+                <p>Cluely AI provides solutions across multiple industries including healthcare, finance, retail and manufacturing. Our technology is adaptable to various business needs.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How quickly can we implement your solutions?</h3>
+                <p>Implementation time varies based on the complexity of your existing infrastructure and the specific solution. Our average implementation period is 4-6 weeks.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
